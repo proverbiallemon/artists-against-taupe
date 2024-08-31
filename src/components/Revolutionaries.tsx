@@ -44,7 +44,9 @@ const Revolutionaries: React.FC = () => {
         Christina Gutowski, 
         <a href="https://louisvilleunfair.org/"> Louisville Unfair</a>, 
         <a href="https://www.instagram.com/heavyvellum/"> Heavy Vellum</a>, 
-        <a href="https://www.instagram.com/corey_herbert87/"> Corey Muffin Armstrong</a>
+        <a href="https://www.instagram.com/corey_herbert87/"> Corey Muffin Armstrong</a>,
+        Eric Niederstadt,
+         <a href="https://www.instagram.com/proverbiallemon/"> Pocket Bear</a>
       </p>
       </div>
     </section>

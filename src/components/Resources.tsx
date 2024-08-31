@@ -2,9 +2,9 @@ import React from 'react';
 
 const Resources: React.FC = () => {
   return (
-    <section id="resources">
+    <section id="Partners">
      <div className="container">
-      <h2>Resources</h2>
+      <h2>Partners</h2>
       </div>
     </section>
   );
