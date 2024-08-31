@@ -16,6 +16,7 @@ const Resources: React.FC = () => {
           <li><a href="https://www.heritageprintshop.com/">Heritage Print Shop</a></li>
           <li><a href="https://www.generalrubberplastics.com/">General Rubber and Plastics</a></li>
           <li><a href="https://www.instagram.com/badcatboutique/?hl=en">Bad Cat Boutique</a></li>
+          <li><a href="https://www.tattoosalvation.com">Tattoo Salvation</a></li>
         </ul>
       </p>
       </div>
