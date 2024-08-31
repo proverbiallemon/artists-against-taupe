@@ -3,10 +3,10 @@ import React from 'react';
 const Header: React.FC = () => {
   return (
     <header>
-       <div className="container">
+       <div className="headermain">
       <h1>Artists Against Taupe</h1>
       <nav>
-        <a href="#what">What</a>
+        <a href="#what">Beyond Beige</a>
         <a href="#credo">Credo</a>
         <a href="#revolutionaries">Revolutionaries</a>
         <a href="#resources">Resources</a>

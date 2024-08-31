@@ -29,13 +29,22 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 20px auto; /* Adds space above and below each container */
+  padding: 20px;
+  background-color: #FFFFFF; /* White background for containers */
+  color: #000000; /* Black text inside the containers */
+  border-radius: 10px; /* Optional: rounded corners for a smoother look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+.headermain {
+  max-width: 1200px;
+  padding: 20px;
 }
 
 /* Header Styles */
 header {
-  background-color: rgba(18, 18, 18, 0.8);
+  background-color: rgba(18, 18, 18, 0.8)!important;
   backdrop-filter: blur(10px);
   padding: 20px 0;
   position: fixed;
