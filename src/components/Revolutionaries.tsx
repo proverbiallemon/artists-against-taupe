@@ -3,6 +3,7 @@ import React from 'react';
 const Revolutionaries: React.FC = () => {
   return (
     <section id="revolutionaries">
+       <div className="container">
       <h2>The Revolutionaries</h2>
       <p>
         35 artists and growing: 
@@ -45,6 +46,7 @@ const Revolutionaries: React.FC = () => {
         <a href="https://www.instagram.com/heavyvellum/"> Heavy Vellum</a>, 
         <a href="https://www.instagram.com/corey_herbert87/"> Corey Muffin Armstrong</a>
       </p>
+      </div>
     </section>
   );
 }
