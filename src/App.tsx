@@ -16,7 +16,6 @@ const App: React.FC = () => {
         <OurColorfulCredo />
         <Revolutionaries />
         <Resources />
-        <ContactForm />
       </main>
     </div>
   );
