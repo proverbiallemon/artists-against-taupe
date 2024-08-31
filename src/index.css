@@ -59,6 +59,74 @@ nav {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  nav {
+    display: none; /* Hide the nav by default on mobile */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: rgba(18, 18, 18, 0.9);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  nav.open {
+    display: flex; /* Show the nav when the menu is open */
+  }
+  
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-color);
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-color);
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger::before {
+    top: -8px;
+  }
+  
+  .hamburger::after {
+    top: 8px;
+  }
+  
+  .nav-toggle.open .hamburger {
+    background-color: transparent;
+  }
+  
+  .nav-toggle.open .hamburger::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  .nav-toggle.open .hamburger::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+}
+
+
 .logo {
   font-family: 'Fredoka One', cursive;
   font-size: 28px;
