@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         <div className={`nav-toggle ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
           <div className="hamburger"></div>
         <nav className={menuOpen ? 'open' : ''}>
-          <a href="#what">What</a>
+          <a href="#what">Beyond Beige</a>
           <a href="#credo">Credo</a>
           <a href="#revolutionaries">Revolutionaries</a>
           <a href="#partners">Partners</a>
