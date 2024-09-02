@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-artistsagainsttaupe-dev-cc137-authRole",
+      "UnauthRoleArn": "arn:aws:iam::586775470064:role/amplify-artistsagainsttaupe-dev-cc137-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::586775470064:role/amplify-artistsagainsttaupe-dev-cc137-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-artistsagainsttaupe-dev-cc137-deployment",
+      "UnauthRoleName": "amplify-artistsagainsttaupe-dev-cc137-unauthRole",
+      "StackName": "amplify-artistsagainsttaupe-dev-cc137",
+      "StackId": "arn:aws:cloudformation:us-east-1:586775470064:stack/amplify-artistsagainsttaupe-dev-cc137/d14c92f0-6963-11ef-b5e1-1214c8df102b",
+      "AmplifyAppId": "d11bgankzayxzm"
+    },
+    "categories": {
+      "auth": {
+        "artistsagainsttaupe88a0da97": {}
+      }
+    }
+  }
+}
