@@ -362,10 +362,22 @@ p {
   }
 
   .image-content img {
-    width: 100%;
+    flex: 1;
+    width: 80%;
     max-width: none;
   }
 }
+
+
+/* mause styles */
+.mause-image {
+  float: right; /* or right depending on where you want the image */
+  margin: 0 20px 20px 0; /* Adjust margins to control space around the image */
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  border: none;
+}
+
 
 
 /* Responsive Styles */

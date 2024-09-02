@@ -19,7 +19,7 @@ const Revolutionaries: React.FC = () => {
           <p>
             35 artists and growing: 
             <a href="https://www.tartackerart.com/"> Tiffany Ackerman</a>, 
-            Jackie Almanza, 
+            <a href="https://www.instagram.com/beysco/?hl=en"> Jackie Almanza</a>, 
             <a href="https://www.hannahfitz.com/"> Hannah Fitzgerald</a>, 
             Oliver Penna, 
             Lily Westfall, 
@@ -31,13 +31,13 @@ const Revolutionaries: React.FC = () => {
             <a href="https://www.instagram.com/whitbird/"> Whitney Arnold</a>, 
             <a href="https://www.whitneyolsen.com/"> Whitney Olsen</a>, 
             Elizabeth Blandford, 
-            Aril Ferrara, 
+            <a href="https://www.instagram.com/harildkylerarts/"> Aril Ferrara</a>, 
             Bricce Ferrara, 
             <a href="https://www.instagram.com/alexsublett_tattoo/?hl=en"> Alex Sublett</a>, 
             <a href="https://www.instagram.com/parchmentpossum/?hl=en"> Sydney Givens</a>, 
             Karen Axmaker, 
             Sir Panda, 
-            Kayla Lewis, 
+            <a href="https://www.instagram.com/parchmentpossum/?hl=en"> Kayla Lewis</a>, 
             <a href="https://www.instagram.com/scott_shuffitt/"> Scott Shuffit</a>, 
             <a href="https://tattoosalvation.com/?gad_source=1&gclid=Cj0KCQjw_sq2BhCUARIsAIVqmQvQ7FfxtqLBvd8B3DbqK0IJ8cFzP0kqJnB4cmHBPm6JoAdvzmf6xcMaAm14EALw_wcB"> Adam Potts</a>, 
             <a href="https://palemoontattoo.com/"> Ryan Rumsey</a>, 
@@ -65,6 +65,7 @@ const Revolutionaries: React.FC = () => {
         </div>
         <div className="image-content">
           <img src={crewImage} alt="The crew" />
+          <p> <strong>three bad sqwarls</strong> </p>
         </div>
       </div>
     </section>
