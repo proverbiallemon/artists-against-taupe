@@ -7,6 +7,7 @@ const Resources: React.FC = () => {
       <h2>Partners</h2>
       <p>
         Our incredible partners who support the movement:
+        </p>
         <ul>
           <li><a href="https://www.ymcalouisville.org/programs/community/safe-place-services">YMCA Safe Place Services</a></li>
           <li><a href="https://louisvilleunfair.org/">Louisville UnFair</a></li>
@@ -18,7 +19,6 @@ const Resources: React.FC = () => {
           <li><a href="https://www.instagram.com/badcatboutique/?hl=en">Bad Cat Boutique</a></li>
           <li><a href="https://www.tattoosalvation.com">Tattoo Salvation</a></li>
         </ul>
-      </p>
       </div>
     </section>
   );
