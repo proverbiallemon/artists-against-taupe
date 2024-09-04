@@ -18,3 +18,12 @@ frontend:
     paths:
       - .npm/**/*
       - node_modules/**/*
+  customHeaders:
+    - pattern: '**/*'
+      headers:
+        - key: 'Access-Control-Allow-Origin'
+          value: '*'
+        - key: 'Access-Control-Allow-Headers'
+          value: 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'
+        - key: 'Access-Control-Allow-Methods'
+          value: 'OPTIONS,GET,PUT,POST,DELETE'
