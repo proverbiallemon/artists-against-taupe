@@ -11,7 +11,7 @@ const ContactForm: React.FC = () => {
     setStatus('Sending...');
 
     try {
-      const response = await fetch('https://8iz3ddn1kg.execute-api.us-east-2.amazonaws.com', {
+      const response = await fetch('https://8iz3ddn1kg.execute-api.us-east-2.amazonaws.com/ProdDep', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
