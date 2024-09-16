@@ -34,7 +34,7 @@ const Revolutionaries: React.FC = () => {
             <a href="https://www.instagram.com/harildkylerarts/"> Aril Ferrara</a>, 
             Bricce Ferrara, 
             <a href="https://www.instagram.com/alexsublett_tattoo/?hl=en"> Alex Sublett</a>, 
-            <a href="https://www.instagram.com/parchmentpossum/?hl=en"> Sydney Givens</a>, 
+            Sydney Givens,
             Karen Axmaker, 
             Sir Panda, 
             <a href="https://www.instagram.com/parchmentpossum/?hl=en"> Kayla Lewis</a>, 
@@ -56,6 +56,7 @@ const Revolutionaries: React.FC = () => {
             <a href="https://louisvilleunfair.org/"> Louisville Unfair</a>, 
             <a href="https://www.instagram.com/heavyvellum/"> Heavy Vellum</a>, 
             <a href="https://www.instagram.com/corey_herbert87/"> Corey Muffin Armstrong</a>,
+            Deo George,
             Eric Niederstadt,
             <a href="https://www.instagram.com/proverbiallemon/"> Pocket Bear</a>
           </p>
